@@ -1,0 +1,79 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: url('calculator.jpg') no-repeat center center/cover;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+:root {
+    --primary-color: #c49b16c0;
+    --secondary-color: #333;
+    --accent-color: #fff;
+    --bg-color: #f8f9fa;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --success-color: #28a745;
+    --error-color: #dc3545;
+}
+
+.container {
+    background: var(--accent-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px var(--shadow-color);
+    text-align: center;
+    max-width: 400px;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+label {
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--accent-color);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: var(--secondary-color);
+    color: var(--accent-color);
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+}
